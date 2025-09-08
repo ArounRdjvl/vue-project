@@ -15,7 +15,20 @@ body {
   transition:
     background-color 0.5s,
     color 0.5s;
-  font-family: JetBrainsMono;
+  font-family:
+    JetBrainsMono,
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
   font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
