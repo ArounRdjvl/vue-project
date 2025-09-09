@@ -10,10 +10,16 @@ const auth = useAuthenticator()
 </script>
 
 <template>
-  <div class="relative sticky inset-x-0 top-0 m-2 h-12 flex justify-end gap-5 items-center">
-    <Button class="h-6" v-if="auth.authStatus === 'authenticated'" @click="auth.signOut">
-      Sign Out</Button
-    >
-    <DarkMode />
+  <div
+    class="sticky inset-x-0 top-0 m-2 h-15 grid grid-cols-[4rem_auto_4rem] justify-stretch items-center"
+  >
+    <div></div>
+    <h4 class="underline decoration-double place-self-center shrink-0">Demo Project</h4>
+    <div class="flex items-center">
+      <Button class="h-6" v-if="auth.authStatus === 'authenticated'" @click="auth.signOut">
+        Sign Out
+      </Button>
+      <DarkMode />
+    </div>
   </div>
 </template>
