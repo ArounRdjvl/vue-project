@@ -8,7 +8,7 @@ const isDark = useDark()
   <footer
     class="relative md:absolute inset-x-0 bottom-0 m-2 h-16 flex justify-end gap-1 items-center"
   >
-    <a href="https://github.com/ArounRdjvl/vue-project">
+    <a href="https://github.com/ArounRdjvl/vue-project" target="_blank">
       <img
         v-if="isDark"
         src="@/assets/github-mark-white.svg"
@@ -16,7 +16,7 @@ const isDark = useDark()
       />
       <img v-else src="@/assets/github-mark.svg" class="object-cover h-6 right-1 m-2" />
     </a>
-    <a href="https://www.linkedin.com/in/aroun-radjavelou/">
+    <a href="https://www.linkedin.com/in/aroun-radjavelou/" target="_blank">
       <img src="@/assets/linkedIn.png" class="object-cover h-6 right-1 m-2" />
     </a>
   </footer>
