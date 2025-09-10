@@ -3,7 +3,6 @@
 @import 'tailwindcss';
 @import 'tailwindcss-primeui';
 
-
 @font-face {
   font-family: JetBrainsMono;
   src: url('../assets/fonts/JetBrainsMono.woff2') format('woff2');
