@@ -6,7 +6,7 @@ const isDark = useDark()
 
 <template>
   <footer
-    class="relative md:absolute fixed inset-x-0 bottom-0 m-2 h-16 flex justify-end gap-1 items-center"
+    class="relative md:absolute inset-x-0 bottom-0 m-2 h-16 flex justify-end gap-1 items-center"
   >
     <a href="https://github.com/ArounRdjvl/vue-project">
       <img
